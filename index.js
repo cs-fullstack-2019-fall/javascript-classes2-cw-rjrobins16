@@ -27,11 +27,13 @@ class Movie{
 }
 
 let myMovie = new Movie('Cinderella','G','1998');
+console.log(myMovie);
 
 let badMovie = new Movie('Stepdad','R','2005');
 
 
 myMovie.changeRating("PG");
+
 console.log(myMovie);
 
 
